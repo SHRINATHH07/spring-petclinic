@@ -444,4 +444,11 @@
       </build>
     </profile>
   </profiles>
+  <distributionManagement>
+    <repository>
+        <id>nexus-mixed</id>
+        <name>demo</name>
+        <url>http://13.200.19.3:8081/repository/demo/</url>
+    </repository>
+</distributionManagement>
 </project>
